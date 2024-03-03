@@ -1,0 +1,15 @@
+
+.link {
+    margin: 2px 4px;
+    color: #C7C8CC;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: black;
+}
+
+/* .button.MuiButton-root {
+    border-radius: 50px !important; 
+    color: white !important;
+} */

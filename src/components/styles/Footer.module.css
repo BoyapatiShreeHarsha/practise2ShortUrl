@@ -1,0 +1,27 @@
+.footer{
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items:start;
+    padding: 5% 10%;
+    color: white;
+    background-color: hsl(255, 11%, 22%);
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 12px;
+}
+
+.lists h4{
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.lists p{
+    margin-bottom: 10%;
+}
