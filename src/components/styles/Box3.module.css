@@ -1,0 +1,29 @@
+
+
+.box3{
+    width: 80%;
+    margin: 5% auto 10% auto;
+
+}
+
+.text{
+    text-align: center;
+    color: #393646;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.mainbody{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    /* border: 1px solid red; */
+    padding: 2% 2%;
+}
+
+.strip{
+    width: 5%;
+    height: 5px;
+    background-color: hsl(180, 66%, 49%);
+}
+

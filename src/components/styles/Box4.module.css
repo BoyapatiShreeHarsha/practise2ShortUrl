@@ -1,0 +1,16 @@
+
+.box4{
+    width: 100%;
+    margin-top: 5%;
+    padding: 5% 0%;
+    text-align: center;
+    background-image: url("./images/bg-boost-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: hsl(257, 27%, 26%);
+}
+
+.box4 h2{
+    margin-bottom: 2%;
+}

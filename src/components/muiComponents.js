@@ -1,4 +1,4 @@
-import { AppBar, Button, styled } from "@mui/material";
+import { AppBar, Button, TextField, styled } from "@mui/material";
 
 export const StyledAppbar = styled(AppBar)(({ theme })=>({
     '&.MuiAppBar-root': {
@@ -28,4 +28,26 @@ export const StyledButtons = styled(Button)({
         fontWeight:500,
         textDecoration:"none",
     }
+});
+
+export const StyledForm = styled(TextField)({
+    '&.MuiTextField-root':{
+        backgroundColor:"white",
+        borderRadius:"9px"
+    },
+    '& .MuiOutlinedInput-root.Mui-focused':{
+        borderColor:"hsl(180, 66%, 49%)",
+        borderRadius:"9px"
+    },
+    '& .MuiInputBase-input':{
+        fontFamily:"poppins",
+        fontSize:"larger",
+        fontWeight:500,
+    },
+    '& .MuiOutlinedInput-root:hover':{
+        borderRadius:"9px",
+        border:"none"
+    },
+    
+    
 })
