@@ -49,6 +49,7 @@ export default function Navbar() {
                         <div style={{ display: "flex" }}>
                             {pages.map((obj, index) => (
                                 <Link
+                                    data-testid={`link-${index}`}
                                     key={index}
                                     to={obj.to}
                                     className={styles.link}
@@ -96,13 +97,13 @@ export default function Navbar() {
                             <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", margin: "0px 4px", textAlign: "center" }}>
                                 {pages.map((obj, index) => (
 
-                                    <Link key={index} textAlign="center" className={styles.link} to={obj.to}>{obj.name}</Link>
+                                    <Link key={index} data-testid={`link-${index}a`} className={styles.link} to={obj.to}>{obj.name}</Link>
 
                                 ))}
                                 <Divider />
 
-                                <StyledButtons variant='text'>Login</StyledButtons>
-                                <StyledButtons variant='contained'>Sign Up</StyledButtons>
+                                <StyledButtons data-testid="login" variant='text'>Login</StyledButtons>
+                                <StyledButtons data-testid="signUp" variant='contained'>Sign Up</StyledButtons>
                             </div>
                         </Menu>
                     </Box>

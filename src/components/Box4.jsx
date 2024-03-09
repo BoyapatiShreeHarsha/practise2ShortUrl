@@ -7,7 +7,7 @@ export default function Box4() {
   return (
     <div className={styles.box4}>
         <h2>Boost your links today</h2>
-        <Button variant='contained'>Get Started</Button>
+        <Button data-testid="startbtn" variant='contained'>Get Started</Button>
 
     </div>
   )

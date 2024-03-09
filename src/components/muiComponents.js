@@ -48,6 +48,9 @@ export const StyledForm = styled(TextField)({
         borderRadius:"9px",
         border:"none"
     },
+    '& fieldset':{
+        borderRadius:"7px"
+    }
     
     
 })

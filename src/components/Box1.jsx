@@ -9,7 +9,7 @@ export default function Box1() {
             <div className={styles.text}>
                 <h1 style={{fontSize:"xxx-large",color:"#3D3B40"}}>More than just shorter links</h1>
                 <p>Build your brand's recognition and get detailed insights on how your links are performing</p>
-                <StyledButtons variant="contained" >Get Started</StyledButtons>
+                <StyledButtons data-testid="startbtn" variant="contained" >Get Started</StyledButtons>
             </div>
             <div className={styles.bgimg}>
                 <img src="public/images/illustration-working.svg" alt="" style={{height:"100%"}}/>

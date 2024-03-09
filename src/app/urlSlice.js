@@ -1,7 +1,7 @@
 import { createSlice,nanoid } from "@reduxjs/toolkit";
 
 const initialState ={
-    urls:[{id:nanoid(),old:"https://fonts.google.com/",new:"https://cleanuri.com/g09Dm3"}]
+    urls:[]
 }
 
 export const urlSlice = createSlice({
